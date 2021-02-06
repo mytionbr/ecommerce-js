@@ -7,7 +7,6 @@
     "start": "nodemon --watch backend --exec babel-node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mytionbr/gameBoss-js.git"
@@ -26,6 +25,9 @@
     "@babel/cli": "^7.12.13",
     "@babel/core": "^7.12.13",
     "@babel/node": "^7.12.13",
-    "@babel/preset-env": "^7.12.13"
+    "@babel/preset-env": "^7.12.13",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }
