@@ -2,14 +2,19 @@
   "name": "frontend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start":"live-server src --verbose",
+    "start": "webpack-dev-server --mode development --watch-content-base --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matheus Sousa de Jesus",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }

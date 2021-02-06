@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mytionbr/gameBoss-js/issues"
   },
-  "homepage": "https://github.com/mytionbr/gameBoss-js#readme"
+  "homepage": "https://github.com/mytionbr/gameBoss-js#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
 }
