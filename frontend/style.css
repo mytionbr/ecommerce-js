@@ -2,6 +2,8 @@
     --bg-white:#ffffff;
     --bg-orange:#fa8040;
     --bg-blue:#203040;
+    --bg-golden:#ffc00f;
+    --bg-grey:#444444;
 }
 *{
     box-sizing: border-box;
@@ -97,4 +99,14 @@ footer{
 }
 .product-price{
     font-size: 2rem;
+}
+
+.rating{
+    color: var(--bg-golden);
+    font-size:1.8rem;
+}
+
+.rating span:last-child{
+    color:var(--bg-grey);
+    font-size:1.4rem;
 }
